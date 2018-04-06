@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\r\n\t\ start\ the\ stop\ watch.\r\n
+comment1.params=
+comment1.target=void\ stop()
+comment1.text=\r\n\t\ stop\ the\ stop\ watch.\r\n
+comment2.params=
+comment2.target=double\ time()
+comment2.text=\r\n\telapsed\ time\ in\ seconds.\r\n\t@return\ the\ time\ recorded\ on\ the\ stopwatch\ in\ seconds\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=long\ timeInNanoseconds()
+comment4.text=\r\n\telapsed\ time\ in\ nanoseconds.\r\n\t@return\ the\ time\ recorded\ on\ the\ stopwatch\ in\ nanoseconds\r\n
+numComments=5

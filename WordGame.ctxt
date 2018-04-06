@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=filename
+comment0.target=WordGame(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ WordGame\r\n\ @param\ filename\ the\ file\ that\ conatains\ the\ dictionary\ for\ the\ project\r\n
+comment1.params=number
+comment1.target=char\ numberConverter(int)
+comment1.text=\r\n\ Converts\ an\ int\ to\ a\ letter\r\n\ @param\ number\ the\ int\ that\ will\ be\ converted\r\n\ @return\ letters[number]\ the\ desired\ letter\ from\ the\ given\ number\r\n
+comment2.params=letter\ position\ startWord
+comment2.target=java.lang.String\ replace(char,\ int,\ java.lang.String)
+comment2.text=\r\n\ Replaces\ a\ letter\ at\ a\ certain\ position\ in\ the\ given\ startword\r\n\ @param\ letter\ the\ new\ char\ \r\n\ @param\ position\ the\ new\ position\ of\ the\ char\r\n\ @param\ startWord\ the\ word\ in\ which\ the\ char\ is\ being\ changed\r\n\ @return\ sb.toString()\ the\ new\ word\ with\ letter\ inserted\ at\ position\ \r\n
+comment3.params=startWord\ endWord\ steps\ changes
+comment3.target=boolean\ recursiveChange(java.lang.String,\ java.lang.String,\ int,\ java.util.ArrayList)
+comment3.text=\r\n\ Actually\ changes\ the\ startWord\ to\ endWord\ in\ the\ desired\ steps\ if\ its\ possible\r\n\ @param\ startWord\ the\ begininning\ word\r\n\ @param\ endWord\ the\ target\ word\r\n\ @param\ steps\ the\ desired\ number\ of\ steps\ it\ will\ be\ completed\ in\r\n\ @param\ ArrayList\ <String>\ changes\ the\ words\ as\ they\ are\ changed\ each\ step\ \r\n\ @return\ true\ if\ the\ endWord\ is\ possible\ within\ steps\r\n\ @return\ false\ if\ the\ endWord\ isn't\ possible\ within\ steps\r\n
+numComments=4
